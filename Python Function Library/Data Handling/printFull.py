@@ -14,6 +14,9 @@ Args:
 Returns:
     A print of the dataframe with no limits on rows or columns
 
+Source:
+    https://stackoverflow.com/a/51593236
+
 Doc Author:
     Willem van der Schans
 """
@@ -28,3 +31,4 @@ Doc Author:
     pd.reset_option('display.width')
     pd.reset_option('display.float_format')
     pd.reset_option('display.max_colwidth')
+
