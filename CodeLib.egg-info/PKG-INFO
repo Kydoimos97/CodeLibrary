@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: CodeLib
+Version: 0.0.2
+Summary: Reusable Code Library
+Author: Willem van der Schans
+Author-email: willemvanderschans97+CodeLib@gmail.com
+Keywords: python,code library
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Reference
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+Reusable Code Library
