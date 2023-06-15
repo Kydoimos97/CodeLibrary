@@ -5,6 +5,6 @@ DESCRIPTION = 'Reusable Code Library'
 
 # Setting up
 setup(
-    name="CodeLib",
+    name="Reference_CodeLibrary",
     version=VERSION,
     packages=find_packages())

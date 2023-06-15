@@ -1,8 +1,0 @@
-LICENSE
-README.md
-setup.cfg
-setup.py
-CodeLib.egg-info/PKG-INFO
-CodeLib.egg-info/SOURCES.txt
-CodeLib.egg-info/dependency_links.txt
-CodeLib.egg-info/top_level.txt
