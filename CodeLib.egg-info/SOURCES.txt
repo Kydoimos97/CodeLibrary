@@ -1,5 +1,6 @@
 LICENSE
 README.md
+setup.cfg
 setup.py
 CodeLib.egg-info/PKG-INFO
 CodeLib.egg-info/SOURCES.txt
