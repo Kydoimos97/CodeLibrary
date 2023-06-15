@@ -5,7 +5,6 @@ DESCRIPTION = 'Reusable Code Library'
 
 # Setting up
 setup(
-    # the name must match the folder name 'verysimplemodule'
     name="CodeLib",
     version=VERSION,
     author="Willem van der Schans",
@@ -13,8 +12,7 @@ setup(
     description=DESCRIPTION,
     long_description=DESCRIPTION,
     packages=find_packages(),
-    install_requires=[],  # add any additional packages that
-    # needs to be installed along with your package. Eg: 'caer'
+    install_requires=[],  # additional packages
 
     keywords=['python', 'code library'],
     classifiers=[
