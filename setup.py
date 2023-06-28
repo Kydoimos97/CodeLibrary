@@ -1,10 +1,12 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
-VERSION = '0.0.2'
-DESCRIPTION = 'Reusable Code Library'
-
-# Setting up
 setup(
-    name="Reference_CodeLibrary",
-    version=VERSION,
-    packages=find_packages())
+    name='Codelib',
+    version='1.0',
+    packages=['Reference_CodeLibrary'],
+    url='https://github.com/Kydoimos97/CodeLibrary',
+    license='GPL-3.0',
+    author='Willem van der Schans',
+    author_email='willemvanderschans97+codelib@gmail.com',
+    description='In-house code library to promote code re-usability'
+)
