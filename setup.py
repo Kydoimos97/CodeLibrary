@@ -8,7 +8,7 @@ requirements = ["pandas~=1.5.3", "requests~=2.29.0"]
 
 setup(
     name="K5CodeLibrary",
-    version="0.0.1",
+    version="0.0.3",
     author="Willem van der Schans",
     author_email="willemvanderschans97+codelib@gmail.com",
     description="In-house code library to promote code re-usability",
@@ -18,7 +18,7 @@ setup(
     packages=find_packages(),
     install_requires=requirements,
     classifiers=[
-        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.11",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     ],
 )

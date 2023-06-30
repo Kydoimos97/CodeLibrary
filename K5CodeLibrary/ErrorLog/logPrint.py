@@ -35,13 +35,15 @@ Doc Author:
     if seperator_inp:
         time_inp = False
 
-    if log_type_str in ["LOG", "WARNING", "ERROR", "L", "W", "E", "NONE"]:
+    if log_type_str in ["LOG", "WARNING", "ERROR", "INFO", "L", "W", "E", "I", "NONE"]:
         if "LOG" in log_type_str or "L" in log_type_str:
             log_type_str = "LOG:    "
         elif "WARNING" in log_type_str or "W" in log_type_str:
             log_type_str = "WARNING:"
         elif "ERROR" in log_type_str or "E" in log_type_str:
             log_type_str = "ERROR:  "
+        elif "INFO" in log_type_str or "I" in log_type_str:
+            log_type_str = "INFO:   "
         elif log_type_str == "NONE":
             log_type_str = ""
         else:

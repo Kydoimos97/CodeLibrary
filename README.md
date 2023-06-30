@@ -9,7 +9,7 @@
 [![python](https://img.shields.io/badge/Python-%3E%3D3.10-blue?style=flat&logo=python&logoColor=white)](https://www.python.org)
 [![License: GPLv3](https://img.shields.io/badge/License-GPLv3-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![jhc github](https://img.shields.io/badge/Github-Kydoimos97-yellow?style=flat&logo=github)](https://github.com/Kydoimos97)
-
+[![PyPi Test](https://img.shields.io/badge/PyPi%20Test-0.0.2-red?style=flat&logo=python&logoColor=red&link=https://test.pypi.org/project/K5CodeLibrary/)](https://test.pypi.org/project/K5CodeLibrary/)
 
 </div>
 
@@ -29,13 +29,13 @@ The main goal of this repository is to provide reusability for frequently used c
 
 ## Usage
 
-Clone the repository to your local machine using the following command:
+Download the package from test.pypi.org
 
-    git clone https://github.com/Kydoimos97/CodeLibrary.git
+    pip install -i https://test.pypi.org/simple/ K5CodeLibrary
 
-Or install using pip
+Or Update the package if it is already on your system
 
-    pip install git+https://github.com/Kydoimos97/CodeLibrary.git@master
+    pip install -i https://test.pypi.org/simple/ K5CodeLibrary -U
 
 *Note the errorhandler uses match statements hence the requirement for python 3.10*
 

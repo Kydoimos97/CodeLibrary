@@ -1,4 +1,4 @@
-from PFL.Support.logPrint import logPrint
+from K5CodeLibrary.Support.logPrint import logPrint
 
 
 def errorHandler(code):

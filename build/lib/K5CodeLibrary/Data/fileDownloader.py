@@ -3,9 +3,8 @@ import sys
 import time
 
 import requests
-
-from PFL.Support.errorHandler import errorHandler
-from PFL.Support.logPrint import logPrint
+from K5CodeLibrary.Support.errorHandler import errorHandler
+from K5CodeLibrary.Support.logPrint import logPrint
 
 
 def file_downloader(url, file_name, destination_path, useragent=None, chunk_size_bytes=102400):
